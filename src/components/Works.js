@@ -14,75 +14,12 @@ import travel3 from "../images/travel3.png";
 import travel4 from "../images/travel4.png";
 
 function Work() {
-  const pageStyle = {
-    backgroundColor: "white",
-    minHeight: "100vh",
-    color: "black",
-    margin: 0,
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "flex-start",
-    padding: "20px",
-  };
-
-  const sectionStyle = {
-    display: "flex",
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
-    width: "100%",
-    marginBottom: "40px",
-  };
-
-  const reverseSectionStyle = {
-    display: "flex",
-    flexDirection: "row-reverse",
-    alignItems: "center",
-    justifyContent: "space-between",
-    width: "100%",
-    marginBottom: "40px",
-  };
-
-  const textStyle = {
-    flex: 1,
-    maxWidth: "50%",
-    padding: "30px",
-  };
-
-  const imageStyle = {
-    width: "50%",
-    height: "auto",
-    borderRadius: "20px",
-  };
-
-  const galleryStyle = {
-    display: "grid",
-    gridTemplateColumns: "repeat(2, 1fr)",
-    gap: "20px",
-    width: "100%",
-    marginTop: "20px",
-    marginBottom: "80px",
-  };
-
-  const galleryImageStyle = {
-    width: "100%",
-    height: "auto",
-    maxHeight: "300px",
-    objectFit: "cover",
-    borderRadius: "20px",
-  };
-  const titleStyle = {
-    fontSize: "3rem",
-    fontWeight: "bold",
-  };
-
   return (
     /*for southbank*/
-    <div style={pageStyle}>
-      <section style={sectionStyle} id="southbankSection">
-        <div style={textStyle}>
-          <h1 style={titleStyle}>1. Southbank Cafe + Lounge</h1>
+    <div className="pagestyle">
+      <section className="sectionstyle" id="southbankSection">
+        <div className="textStyle">
+          <h1>1. Southbank Cafe + Lounge</h1>
           <p>
             For our website communications class, during my 1st year, we were
             tasked with redesigning a website using no-code website builders. I
@@ -127,49 +64,33 @@ function Work() {
             </a>
           </p>
         </div>
-        <img src={southbank2} alt="Project" style={imageStyle} />
+        <img src={southbank2} alt="Project" />
       </section>
 
-      <section style={galleryStyle}>
+      <section className="galleryStyle">
         <div>
           <h3>Original hero image</h3>
-          <img
-            src={southbank1}
-            alt="Before Redesign"
-            style={galleryImageStyle}
-          />
+          <img src={southbank1} alt="Before Redesign" />
         </div>
         <div>
           <h3>Redesigned hero image</h3>
-          <img
-            src={southbank2}
-            alt="After Redesign"
-            style={galleryImageStyle}
-          />
+          <img src={southbank2} alt="After Redesign" />
         </div>
         <div>
           <h3>Original menu section</h3>
-          <img
-            src={southbank3}
-            alt="Before Redesign"
-            style={galleryImageStyle}
-          />
+          <img src={southbank3} alt="Before Redesign" />
         </div>
         <div>
           <h3>Redesigned menu section</h3>
-          <img
-            src={southbank4}
-            alt="After Redesign"
-            style={galleryImageStyle}
-          />
+          <img src={southbank4} alt="After Redesign" />
         </div>
       </section>
 
       <hr />
 
-      <section style={reverseSectionStyle} id="floralfindsSection">
-        <div style={textStyle}>
-          <h1 style={titleStyle}>2. Floral Finds</h1>
+      <section className="reverseSectionStyle" id="floralfindsSection">
+        <div className="textStyle">
+          <h1>2. Floral Finds</h1>
           <p>
             For our website communications class, during my 2nd year, we had to
             create an e-commerce website from scratch - just with HTML / CSS /
@@ -199,45 +120,29 @@ function Work() {
             </a>
           </p>
         </div>
-        <img src={floralfinds1} alt="Floral Finds" style={imageStyle} />
+        <img src={floralfinds1} alt="Floral Finds" />
       </section>
 
-      <section style={galleryStyle}>
+      <section className="galleryStyle">
         <div>
-          <img
-            src={floralfinds2}
-            alt="Before Redesign"
-            style={galleryImageStyle}
-          />
+          <img src={floralfinds2} alt="cards for bouquet" />
         </div>
         <div>
-          <img
-            src={floralfinds3}
-            alt="After Redesign"
-            style={galleryImageStyle}
-          />
+          <img src={floralfinds3} alt="customer reviews" />
         </div>
         <div>
-          <img
-            src={floralfinds4}
-            alt="Before Redesign"
-            style={galleryImageStyle}
-          />
+          <img src={floralfinds4} alt="frequently asked questions" />
         </div>
         <div>
-          <img
-            src={floralfinds5}
-            alt="After Redesign"
-            style={galleryImageStyle}
-          />
+          <img src={floralfinds5} alt="care guide" />
         </div>
       </section>
 
       <hr />
 
-      <section style={sectionStyle} id="travelogueSection">
-        <div style={textStyle}>
-          <h1 style={titleStyle}>3. My Travelogue</h1>
+      <section className="sectionstyle" id="travelogueSection">
+        <div className="textStyle">
+          <h1>3. My Travelogue</h1>
           <p>
             For our website communications class, during my 2nd year, we had to
             create an e-commerce website from scratch - just with HTML / CSS /
@@ -267,30 +172,18 @@ function Work() {
             </a>
           </p>
         </div>
-        <img src={travelogue1} alt="Floral Finds" style={imageStyle} />
+        <img src={travelogue1} alt="Travelogue Header" />
       </section>
 
-      <section style={galleryStyle}>
+      <section className="galleryStyle">
         <div>
-          <img
-            src={travel2}
-            alt="Before Redesign"
-            style={galleryImageStyle}
-          />
+          <img src={travel2} alt="Before Redesign" />
         </div>
         <div>
-          <img
-            src={travel3}
-            alt="After Redesign"
-            style={galleryImageStyle}
-          />
+          <img src={travel3} alt="After Redesign"  />
         </div>
         <div>
-          <img
-            src={travel4}
-            alt="Before Redesign"
-            style={galleryImageStyle}
-          />
+          <img src={travel4} alt="Before Redesign" />
         </div>
       </section>
     </div>

@@ -1,3 +1,4 @@
+/*navbar css*/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -38,6 +39,78 @@
   color: white; 
 }
 
+/*page styling css*/
+.pagestyle {
+  background-color: white;
+  color: black;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.sectionstyle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.sectionstyle img {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.reverseSectionStyle img {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.reverseSectionStyle {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.textStyle  {
+  flex: 1;
+  max-width: 50%;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.galleryStyle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.galleryStyle img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+/*footer css*/
 .footer {
   background-color: #333;
   color: white;
