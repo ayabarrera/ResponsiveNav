@@ -10,59 +10,8 @@ import about8 from "../images/about8.jpg";
 import about9 from "../images/about9.jpg";
 
 function About() {
-  const pageStyle = {
-    backgroundColor: "white",
-    minHeight: "100vh",
-    color: "black",
-    margin: 0,
-    display: "flex",
-    flexDirection: "column", 
-    alignItems: "center",
-    justifyContent: "flex-start",
-    padding: "20px",
-  };
-
-  const sectionStyle = {
-    display: "flex",
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "space-between",
-    width: "100%",
-    marginBottom: "40px",
-  };
-
-  const textStyle = {
-    flex: 1,
-    padding: "30px",
-  };
-
-  const imageStyle = {
-    width: "50%",
-    height: "auto",
-    borderRadius: "20px",
-  };
-
-  const galleryStyle = {
-    display: "grid",
-    gridTemplateColumns: "repeat(3, 1fr)",
-    gap: "20px",
-    width: "100%",
-  };
-
-  const imageGalleryStyle = {
-    width: "100%",
-    height: "auto",
-    borderRadius: "15px",
-  };
-
-  const titleStyle = {
-    fontSize: '3rem', 
-    fontWeight: 'bold',
-    animation: 'colorChange 6s infinite', 
-  };
-
   return (
-    <div style={pageStyle}>
+    <div className="pageStyle" id="aboutStyle">
       <style>
         {`
           @keyframes colorChange {
@@ -82,9 +31,9 @@ function About() {
         `}
       </style>
 
-      <section style={sectionStyle}>
-        <div style={textStyle}>
-          <h1 style={titleStyle}>Hi, I'm Aya!</h1>
+      <section className="sectionStyle" id="aboutSection">
+        <div className="textStyle">
+          <h1 className="titleStyle">Hi, I'm Aya!</h1>
           <p>
             I’m currently a second-year student in Website Design & Development
             at SAIT. My journey into this field comes after working in the
@@ -104,19 +53,19 @@ function About() {
             with you, and I hope you enjoy it as much as I do creating it!
           </p>
         </div>
-        <img src={aboutMe} alt="About Me" style={imageStyle} />
+        <img src={aboutMe} alt="About Me"/>
       </section>
 
     
-      <section style={galleryStyle}>
-        <img src={about1} alt="snowboarding" style={imageGalleryStyle} />
-        <img src={about2} alt="family in japan" style={imageGalleryStyle} />
-        <img src={about3} alt="with justin" style={imageGalleryStyle} />
-        <img src={about4} alt="mom and dad at santa monica" style={imageGalleryStyle} />
-        <img src={about6} alt="supernintendo world with my sister" style={imageGalleryStyle} />
-        <img src={about7} alt="tokyo at night" style={imageGalleryStyle} />
-        <img src={about8} alt="golden gate bridge with family" style={imageGalleryStyle} />
-        <img src={about9} alt="seven magic mountains with family" style={imageGalleryStyle} />
+      <section className="aboutgalleryStyle">
+        <img src={about1} alt="snowboarding" />
+        <img src={about2} alt="family in japan" />
+        <img src={about3} alt="with justin" />
+        <img src={about4} alt="mom and dad at santa monica" />
+        <img src={about6} alt="supernintendo world with my sister" />
+        <img src={about7} alt="tokyo at night" />
+        <img src={about8} alt="golden gate bridge with family" />
+        <img src={about9} alt="seven magic mountains with family"/>
       </section>
     </div>
   );

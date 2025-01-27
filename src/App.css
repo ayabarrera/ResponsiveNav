@@ -52,16 +52,27 @@
   padding: 20px;
 }
 
-.sectionstyle {
+/*different justify property than the pagestyle for about section*/
+#aboutStyle {
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.sectionStyle {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 100%;
   margin-bottom: 40px;
+  
 }
 
-.sectionstyle img {
+#aboutSection {
+  justify-content: space-between;
+}
+
+.sectionStyle img {
   width: 50%;
   height: auto;
   border-radius: 20px;
@@ -88,6 +99,7 @@
   padding: 30px;
 }
 
+
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -107,6 +119,26 @@ h1 {
   height: 80%;
   object-fit: cover;
   border-radius: 20px;
+}
+
+/*about gallery*/
+.aboutgalleryStyle {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.aboutgalleryStyle img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.titleStyle {
+  font-size: 3 rem;
+  font-weight: bold;
+  animation: colorChange 6s infinite;
 }
 
 

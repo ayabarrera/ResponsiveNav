@@ -17,7 +17,7 @@ function Work() {
   return (
     /*for southbank*/
     <div className="pagestyle">
-      <section className="sectionstyle" id="southbankSection">
+      <section className="sectionStyle" id="southbankSection">
         <div className="textStyle">
           <h1>1. Southbank Cafe + Lounge</h1>
           <p>
@@ -140,7 +140,7 @@ function Work() {
 
       <hr />
 
-      <section className="sectionstyle" id="travelogueSection">
+      <section className="sectionStyle" id="travelogueSection">
         <div className="textStyle">
           <h1>3. My Travelogue</h1>
           <p>
