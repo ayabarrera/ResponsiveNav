@@ -1,4 +1,4 @@
-cleaimport React from "react";
+import React from "react";
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import Home from './components/Home';
