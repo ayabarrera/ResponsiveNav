@@ -18,6 +18,11 @@ code {
     monospace;
 }
 
+p {
+  display: block;
+  padding-bottom: 12px;
+}
+
 @keyframes move {
   0% {
     background-position: 0 0;
@@ -58,13 +63,15 @@ code {
 .sectionStyle img {
   width: 50%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 40px;
+  padding: 12px;
 }
 
 .reverseSectionStyle img {
   width: 50%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 40px;
+  padding: 12px;
 }
 
 .reverseSectionStyle {

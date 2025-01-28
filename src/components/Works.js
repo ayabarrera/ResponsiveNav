@@ -22,31 +22,33 @@ function Work() {
           <h1>1. Southbank Cafe + Lounge</h1>
           <p>
             For our website communications class, during my 1st year, we were
-            tasked with redesigning a website using no-code website builders. I
+            tasked in redesigning a website using no-code website builders. I
             chose Wix due to its user-friendly interface and ease of learning at
             the time.
-            <br />
-            <br />
+          </p>
+          <p>
             The website I focused on was for <b>Southbank Cafe + Lounge</b>, a
             restaurant located in the Philippines. Since the restaurant is owned
             by my cousin, I was motivated to make their online presence more
-            intuitive and visually aligned with the brand’s identity. <br />
-            <br />
+            intuitive and visually aligned with the brand’s identity.
+          </p>
+          <p>
             To enhance the user experience, I incorporated more high-quality
             images to showcase what Southbank has to offer, giving visitors a
             better sense of the ambiance and menu items. I also redesigned the
             footer to make it easier for users to find the locations of the
             different branches.
-            <br />
-            <br />
+          </p>
+          <p>
             One major improvement was the redesign of the menu. Originally,
             visitors had to download the menu, which disrupted the browsing
             experience. I streamlined this by making the menu directly
             accessible on the website, improving convenience and usability. In
             addition to these design changes, I highlighted the restaurant’s
             achievements and included more relevant information to provide a
-            richer, more cohesive brand experience. <br />
-            <br />
+            richer, more cohesive brand experience.
+          </p>
+          <p>
             The overall redesign reflects Southbank's unique vibe and makes the
             website more user-friendly and visually appealing. This project was
             particularly enjoyable for me, as I’m passionate about the
@@ -94,16 +96,17 @@ function Work() {
           <p>
             For our website communications class, during my 2nd year, we had to
             create an e-commerce website from scratch - just with HTML / CSS /
-            Javascript. <br></br>
-            <br></br>
+            Javascript.
+          </p>
+          <p>
             My group and I created Floral Finds and our goal was to create a
             visually appealing website that showcases Floral Finds' products and
             make it easy for their customers to explore all the services being
             offered. We focused on a clean, modern design with images of the
             flowers or bouquets being offered. We've included reviews from
             customers, FAQ's and a "plant care guide" within the website.
-            <br></br>
-            <br></br>
+          </p>
+          <p>
             This project was a little bit more challenging as we had to create a
             website without using any no-code website builder. Although I can
             say, it was a great feeling when we were able to debug and make the
@@ -146,16 +149,17 @@ function Work() {
           <p>
             For our website communications class, during my 2nd year, we had to
             create an e-commerce website from scratch - just with HTML / CSS /
-            Javascript. <br></br>
-            <br></br>
+            Javascript.
+          </p>
+          <p>
             My group and I created Floral Finds and our goal was to create a
             visually appealing website that showcases Floral Finds' products and
             make it easy for their customers to explore all the services being
             offered. We focused on a clean, modern design with images of the
             flowers or bouquets being offered. We've included reviews from
             customers, FAQ's and a "plant care guide" within the website.
-            <br></br>
-            <br></br>
+          </p>
+          <p>
             This project was a little bit more challenging as we had to create a
             website without using any no-code website builder. Although I can
             say, it was a great feeling when we were able to debug and make the
@@ -164,11 +168,11 @@ function Work() {
           <p>
             You can check out the live site here:{" "}
             <a
-              href="https://ayabarrera.github.io/TravelogueBarrera/"
+              href="https://ayabarrera.github.io/FloralFinds_cprg218/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Alyanna's Travelogue
+              Floral Finds
             </a>
           </p>
         </div>
@@ -180,7 +184,7 @@ function Work() {
           <img src={travel2} alt="Before Redesign" />
         </div>
         <div>
-          <img src={travel3} alt="After Redesign"  />
+          <img src={travel3} alt="After Redesign" />
         </div>
         <div>
           <img src={travel4} alt="Before Redesign" />

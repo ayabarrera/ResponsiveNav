@@ -38,18 +38,19 @@ function About() {
             I’m currently a second-year student in Website Design & Development
             at SAIT. My journey into this field comes after working in the
             kitchen for a while, but my passion for the arts has always driven
-            me to pursue something beyond the culinary world.<br></br>
-            <br></br>
-            I’m also a huge animal lover with 3 cats and 2 dogs back home in the
+            me to pursue something beyond the culinary world.
+            </p>
+
+            <p>I’m also a huge animal lover with 3 cats and 2 dogs back home in the
             Philippines! When I’m not immersed in tech, you’ll find me outdoors
             (snowboarding, camping, or just being out there), traveling, trying
             new cuisines, or capturing moments through photography. In the past
             years I have been focusing on career growth but I am trying to take
             a step back and have been focusing on staying present and fully
             enjoying each experience.
-            <br></br>
-            <br></br>
-            While what I do is still a work in progress, I’m excited to share it
+            </p>
+
+            <p>While what I do is still a work in progress, I’m excited to share it
             with you, and I hope you enjoy it as much as I do creating it!
           </p>
         </div>
