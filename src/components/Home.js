@@ -14,41 +14,23 @@ import work12 from "../images/work12.jpg";
 import work13 from "../images/work13.jpg";
 import work14 from "../images/work14.jpg";
 
-
-const imagePaths = [work1, work2, work3, work5, work4, work8, work6, work9, work10, work11, work12, work13, work14];
+const imagePaths = [
+  work1,
+  work2,
+  work3,
+  work5,
+  work4,
+  work8,
+  work6,
+  work9,
+  work10,
+  work11,
+  work12,
+  work13,
+  work14,
+];
 
 function Home() {
-  const pageStyle = {
-    backgroundColor: "white",
-    minHeight: "100vh",
-    color: "black",
-    margin: 0,
-  };
-
-  const sectionStyle = {
-    textAlign: "center",
-    display: "flex",
-    justifyContent: "center", 
-    alignItems: "center", 
-    height: "400px", 
-    overflow: "hidden", 
-    marginTop: "20px",
-  };
-
-  const heroImageStyle = {
-    width: "100%",
-    height: "100%",
-    objectFit: "cover",
-    borderRadius: "20px", 
-  };
-
-  const galleryStyle = {
-    display: "grid",
-    gridTemplateColumns: "repeat(3, 1fr)",
-    gap: "20px",
-    padding: "20px",
-  };
-
   const imagePreviewStyle = {
     width: "100%",
     height: "auto",
@@ -69,40 +51,35 @@ function Home() {
 
   const handleHover = (event, isHover) => {
     if (isHover) {
-      event.target.style.transform = "scale(1.05)";  
-      event.target.style.boxShadow = "0 8px 16px rgba(0, 0, 0, 0.4)";  
-      event.target.style.filter = "brightness(0.8) hue-rotate(15deg)"; 
+      event.target.style.transform = "scale(1.05)";
+      event.target.style.boxShadow = "0 8px 16px rgba(0, 0, 0, 0.4)";
+      event.target.style.filter = "brightness(0.8) hue-rotate(15deg)";
     } else {
-      event.target.style.transform = "scale(1)";  // Normal size
-      event.target.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";  // Light shadow
-      event.target.style.filter = "none";  
+      event.target.style.transform = "scale(1)"; // Normal size
+      event.target.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)"; // Light shadow
+      event.target.style.filter = "none";
     }
   };
 
   return (
-    <div style={pageStyle}>
-      <header style={{ padding: "0px 0px", backgroundColor: "#f2eded", textAlign: "center" }}></header>
-      <section className="hero-section" style={sectionStyle}>
-        <img
-          src={heroImg}
-          alt="Hero"
-          style={heroImageStyle}
-        />
+    <div className="pageStyle">
+      <section className="homesectionStyle">
+        <img src={heroImg} alt="Hero" />
       </section>
 
-      <section style={galleryStyle}>
+      <section className="galleryStyle">
         {imagePaths.map((image, index) => {
           let imageStyle = imagePreviewStyle;
-          let gridColumnStyle = "auto"; 
+          let gridColumnStyle = "auto";
 
           if (index === 0 || index === 4) {
             imageStyle = largeImageStyle;
             gridColumnStyle = "span 3";
-          } else if (index === 8) { 
+          } else if (index === 8) {
             imageStyle = twoColumnImageStyle;
-            gridColumnStyle = "span 2"; 
+            gridColumnStyle = "span 2";
           } else if (index === 9) {
-            gridColumnStyle = "auto"; 
+            gridColumnStyle = "auto";
           }
 
           return (
@@ -111,8 +88,8 @@ function Home() {
                 src={image}
                 alt={`Work ${index + 1}`}
                 style={imageStyle}
-                onMouseEnter={(e) => handleHover(e, true)}  
-                onMouseLeave={(e) => handleHover(e, false)} 
+                onMouseEnter={(e) => handleHover(e, true)}
+                onMouseLeave={(e) => handleHover(e, false)}
               />
             </div>
           );

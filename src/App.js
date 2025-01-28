@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './App.css';
 import './index.css';
+import './home.css';
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import Home from './components/Home';
 import Work from './components/Works';
@@ -27,7 +28,7 @@ function App() {
             <li><NavLink to="/" end onClick={() => setIsOpen(false)}>HOME</NavLink></li>
             <li><NavLink to="/About" onClick={() => setIsOpen(false)}>ABOUT</NavLink></li>
             <li><NavLink to="/Work" onClick={() => setIsOpen(false)}>WORKS</NavLink></li>
-            <li><NavLink to="/Contact" onClick={() => setIsOpen(false)}>CONTACT</NavLink></li>
+            <li><NavLink to="/Contact" onClick={() => setIsOpen(false)}>SAY HELLO!</NavLink></li>
           </ul>
 
           <div className="hamburger" onClick={toggleMenu}>
