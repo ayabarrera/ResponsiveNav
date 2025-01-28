@@ -16,7 +16,7 @@ import travel4 from "../images/travel4.png";
 function Work() {
   return (
     /*for southbank*/
-    <div className="pagestyle">
+    <div className="pagestyle" id="workStyle">
       <section className="sectionStyle" id="southbankSection">
         <div className="textStyle">
           <h1>1. Southbank Cafe + Lounge</h1>
