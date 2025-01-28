@@ -3,14 +3,18 @@
 To run the application locally follow these steps:
 - Manually -
 1. You can download the zipped files then extract on your computer, make sure to remember where!
-2. Open your terminal, cd "A. BARRERA_RESPONSIVE"
-3. Type npm start, wait for the website to load.
+2. Open your terminal, cd "ResponsiveNav-dry-coding"
+3. Then type npm install (to install dependencies).
+4. Type npm start (to start the project).
 
 - Git -
 1. Open terminal.
 2. Type -> git clone https://github.com/ayabarrera/ResponsiveNav.git
-3. Then cd the file
-4. Type npm start, wait for the website to load.
+3. Then type npm install (to install dependencies).
+4. In case you run into a problem called 
+    - (Module not found Can't resolve 'web-vitals' in '/Users/alyannabarrera/Desktop/ResponsiveNav/src'") 
+    - you have to type npm install npm install web-vitals.
+5. Type npm start (to start the project).
 
 --- 
 
